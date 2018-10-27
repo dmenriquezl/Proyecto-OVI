@@ -1,0 +1,83 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+.chat-container{
+  margin:0;
+  padding:0;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  z-index: 999;
+}
+.chat-button{
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 0;
+  background-color: #337AB7;
+  text-align: center;
+  color: #fff;
+}
+.chat-content{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  display: none; 
+}
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
